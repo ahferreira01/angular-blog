@@ -3,11 +3,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   color: black;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  }
+
+
 
 a{
   text-decoration: none;
 }
+

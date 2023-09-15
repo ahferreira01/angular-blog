@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-menu-bar',
@@ -7,6 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MenuBarComponent implements OnInit {
 
+@Input()
+  photoCover:string = ""
+
+  @Input()
+  photoGit:string = ""
+
+  @Input()
+  photoYt:string = ""
   constructor() { }
 
   ngOnInit(): void {

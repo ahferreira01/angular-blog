@@ -25,6 +25,8 @@ color: grey;
 }
 
 .photo__big-card > img{
-  width: 100%;
-  min-width: 595px;
+  width: 550px;
+  min-width: 550px;
+
+
 }

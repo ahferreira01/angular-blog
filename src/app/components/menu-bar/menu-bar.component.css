@@ -1,9 +1,27 @@
 .menu-bar__container > ul{
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 .menu-bar__container >ul > li{
   margin-right: 20px;
   list-style: none;
+}
+
+.photo-menu-bar__container > a > img {
+  width: 60px;
+  min-width: 60px;
+}
+
+
+.photo-menu-bar__git > a > img{
+  width: 50px;
+  min-width: 50px;
+
+}
+
+.photo-menu-bar__yt > a > img{
+  width: 50px;
+  min-width: 50px;
 }
